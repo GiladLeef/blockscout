@@ -6,7 +6,9 @@ def getValues():
         "node-server-ip": input("Enter value for node-server-ip: "),
         "custom-currency-name": input("Enter value for custom-currency-name: "),
         "custom-currency-symbol": input("Enter value for custom-currency-symbol: "),
-        "custom-chainid": input("Enter value for custom-chainid: ")
+        "custom-chainid": input("Enter value for custom-chainid: "),
+        "custom-network-name": input("Enter value for custom-network-name: "),
+        "custom-logo-url": input("Enter value for custom-logo-url: ")
     }
     return replacements
 
